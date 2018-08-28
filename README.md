@@ -6,13 +6,13 @@
 
 ---
 ## Program goals
-The aim of the GRPF algorithm is to **find all the zeros and poles of the function in the fixed region**.  A wide class of analytic functions can be analyzed, and any arbitrarily shaped search region can be considered. High flexibility and effectiveness of this program is demonstrated int the attached examples. These examples are focused on microwave and optical applications, however the algorithm is not limited to computational electrodynamics and can be used for similar problems e.g. in acoustics, control theory and quantum mechanics. 
+The aim of the GRPF algorithm is to **find all the zeros and poles of the function in the fixed region**.  A wide class of analytic functions can be analyzed, and any arbitrarily shaped search region can be considered. High flexibility and effectiveness of this program is demonstrated in the attached examples. These examples are focused on microwave and optical applications, however the algorithm is not limited to computational electrodynamics and can be used for similar problems e.g. in acoustics, control theory and quantum mechanics. 
 
 ## Solution method
 In the first step, the function which is defined in the [fun.m](fun.m) file is sampled using a regular triangular mesh. After initial analysis of the function the candidate regions to search for roots and poles are determined. Next, the discretized Cauchy's argument principle is applied, but **it does not require the derivative of the function and integration over the contour**. In the proposed approach a minimal number of the function samples is utilized. To improve the accuracy of the results a simple self-adaptive mesh refinement (inside the previously determined candidate regions) is applied.
 
 ## Scientific work
-If the code is used in a scientific work, then **reference should me made to the following two publications**:
+If the code is used in a scientific work, then **reference should be made to the following two publications**:
 1. P. Kowalczyk, “Complex Root Finding Algorithm Based on Delaunay Triangulation”, ACM Transactions on Mathematical Software, vol. 41, no. 3, art. 19, pp. 1-13, June 2015, [link](https://dl.acm.org/citation.cfm?id=2699457)
 2. P. Kowalczyk, "Global Complex Roots and Poles Finding Algorithm Based on Phase Analysis for Propagation and Radiation Problems," IEEE Transactions on Antennas and Propagation, (Accept 27-Aug-2018) 2018
 
