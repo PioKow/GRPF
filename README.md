@@ -20,10 +20,10 @@ If the code is used in a scientific work, then **reference should be made to the
 ## Manual
 1. **[GRPF.m](GRPF.m) - starts the program**
 2. [analysis_parameters.m](/analysis_parameters.m) - contains all parameters of the analysis, e.g.:
--- the domain shape and size (two domain shapes are available: rectangle and circle, as described in the examples) 
--- the initial step
--- accuracy (Tol)
--- mesh visualization options
+⋅⋅* the domain shape and size (two domain shapes are available: rectangle and circle, as described in the examples) 
+⋅⋅* the initial step
+⋅⋅* accuracy (Tol)
+⋅⋅* mesh visualization options
 3. [fun.m](fun.m) - definition of the function for which roots and poles will be calculated
 4. **to run examples**: copy (and overwrite) [analysis_parameters.m](analysis_parameters.m) and [fun.m](fun.m) files from the folder containing the example to the main folder and start GRPF program
  
