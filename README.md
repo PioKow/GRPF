@@ -13,8 +13,8 @@ In the first step, the function which is defined in the [fun.m](fun.m) file is s
 
 ## Scientific work
 If the code is used in a scientific work, then **reference should me made to the following two publications**:
-1. P. Kowalczyk, “Complex Root Finding Algorithm Based on Delaunay Triangulation”, ACM Transactions on Mathematical Software, vol. 41, no. 3, art. 19, pp. 1-13, June 2015
-2. P. Kowalczyk, "Global Complex Roots and Poles Finding Algorithm Based on Phase Analysis for Propagation and Radiation Problems," IEEE Transactions on Antennas and Propagation, (Accept 27-Aug-2018)  2018
+1. P. Kowalczyk, “Complex Root Finding Algorithm Based on Delaunay Triangulation”, ACM Transactions on Mathematical Software, vol. 41, no. 3, art. 19, pp. 1-13, June 2015, [link](https://dl.acm.org/citation.cfm?id=2699457)
+2. P. Kowalczyk, "Global Complex Roots and Poles Finding Algorithm Based on Phase Analysis for Propagation and Radiation Problems," IEEE Transactions on Antennas and Propagation, (Accept 27-Aug-2018) 2018
 
 ---
 ## Manual
@@ -28,14 +28,14 @@ If the code is used in a scientific work, then **reference should me made to the
 4. **to run examples**: copy (and overwrite) [analysis_parameters.m](analysis_parameters.m) and [fun.m](fun.m) files from the folder containing the example to the main folder and start GRPF program
  
 ## Short description of the functions
-[GRPF.m](GRPF.m) - main body of the algorithm  
-[analysis_parameters.m](analysis_parameters.m) - analysis parameters definition
-[fun.m](fun.m) - function definition
-[rect_dom.m](rect_dom.m) - initial mesh generator for rectangular domain
-[disk_dom.m](disk_dom.m) - initial mesh generator for circular domain
-[vinq.m](vinq.m) - converts the function value into proper quadrant
-[FindNextNode.m](FindNextNode.m) - finds the next node in the candidate boundary creation process
-[vis.m](vis.m) - mesh visualization
+- [GRPF.m](GRPF.m) - main body of the algorithm  
+- [analysis_parameters.m](analysis_parameters.m) - analysis parameters definition
+- [fun.m](fun.m) - function definition
+- [rect_dom.m](rect_dom.m) - initial mesh generator for rectangular domain
+- [disk_dom.m](disk_dom.m) - initial mesh generator for circular domain
+- [vinq.m](vinq.m) - converts the function value into proper quadrant
+- [FindNextNode.m](FindNextNode.m) - finds the next node in the candidate boundary creation process
+- [vis.m](vis.m) - mesh visualization
 
 ## Additional comments
 The code involves MATLAB function [delaunayTriangulation](https://uk.mathworks.com/help/matlab/ref/delaunaytriangulation.html) which was introduced in R2013a version. In the older versions some modifications are required and the function can be replaced by [DelaunayTri](https://uk.mathworks.com/help/matlab/ref/delaunaytri.html), however this solution is not recommended.
@@ -44,4 +44,4 @@ The code involves MATLAB function [delaunayTriangulation](https://uk.mathworks.c
 The project has been developed in **Gdansk University of Technology**, Faculty of Electronics, Telecommunications and Informatics by Dr. Piotr Kowalczyk (faculty web site: [http://eti.pg.edu.pl](http://eti.pg.edu.pl))
 
 ## License
-GRPF is an open-source Matlab code licensed under the [MIT license](LICENSE).
+GRPF is an open-source Matlab code licensed under the [MIT license](LICENSE.md).
