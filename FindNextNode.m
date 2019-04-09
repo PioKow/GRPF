@@ -19,12 +19,14 @@ P=NodesCoord(PrevNode,:);
 S=NodesCoord(RefNode,:);
 N=NodesCoord(TempNodes,:);
 
+
 NoOfTempNodes=size(N,1);
 
 
 SP=ones(NoOfTempNodes,1)*(P-S);
-SN=N-S;
+%SN=N-S
 
+SN=N-ones(size(N,1),1)*S;
 
 LenSP=sqrt(SP(:,1).^2+SP(:,2).^2);
 LenSN=sqrt(SN(:,1).^2+SN(:,2).^2);

@@ -14,7 +14,7 @@ In the first step, the function which is defined in the [fun.m](fun.m) file is s
 ## Scientific work
 If the code is used in a scientific work, then **reference should be made to the following two publications**:
 1. P. Kowalczyk, “Complex Root Finding Algorithm Based on Delaunay Triangulation”, ACM Transactions on Mathematical Software, vol. 41, no. 3, art. 19, pp. 1-13, June 2015, [link](https://dl.acm.org/citation.cfm?id=2699457)
-2. P. Kowalczyk, "Global Complex Roots and Poles Finding Algorithm Based on Phase Analysis for Propagation and Radiation Problems," IEEE Transactions on Antennas and Propagation, (Accept 27-Aug-2018) 2018
+2. P. Kowalczyk, "Global Complex Roots and Poles Finding Algorithm Based on Phase Analysis for Propagation and Radiation Problems," IEEE Transactions on Antennas and Propagation, vol. 66, no. 12, pp. 7198-7205, Dec. 2018, [link](https://ieeexplore.ieee.org/document/8457320)
 
 ---
 ## Manual
